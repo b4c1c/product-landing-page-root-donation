@@ -1,0 +1,112 @@
+#header {
+ position: fixed;
+ width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #BCD4E6;
+  font-family: monospace, sans-serif;
+  padding: 10px;
+}
+
+#header-img {
+  height: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav-bar {
+  text-align: center;
+  padding-right: 35px;
+}
+
+.body {
+  padding-top: 70px;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  background-color: #EAE7DC
+}
+
+p.about {
+  font-family: monospace;
+  font-size: 18px;
+  width: 768px;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p.contact {
+  font-family: monospace;
+  font-size: 18px;
+  width: 768px;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p.footer {
+  font-family: monospace;
+  font-size: 18px;
+  width: 768px;
+  padding:25px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button.don-btn {
+  margin: 10px;
+}
+
+section .logo-parent-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+
+.logo-child-element {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+}
+
+#video {
+  border: 5px solid #BCD4E6;
+  border-radius: 15px;
+}
+
+@media all and (max-width:500px)  {
+  body {
+    color: inherit;
+  }
+}
+/*
+.logo-parent-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo-child-element {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+}
+
+
+*/
